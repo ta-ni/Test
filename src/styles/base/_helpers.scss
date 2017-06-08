@@ -1,0 +1,28 @@
+.wrapper {
+  height: 100%;
+}
+
+.clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding-top: 1px;
+
+  @media screen and (min-width: $small-screens) {
+    width: 90%;
+  }
+  @media screen and (min-width: $middle-screens) {
+    width: 96%;
+  }
+  @media screen and (min-width: $large-screens) {
+    width: 92%;
+  }
+}

@@ -1,0 +1,36 @@
+// --- Color ----
+$main-color: #ad87ff;
+$extra-color: #ffffff;
+$text-color: #616161;
+$border-color: #d2d2d2;
+
+$hover-color: #cfacff;
+
+$error-color: #fe1c00;
+$color-success: #54ff6f;
+
+$shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.23);
+$dark-shadow: 0 0 33px 0 rgba(0, 0, 0, 0.5);
+
+// ---- font ------
+$font-family: 'Roboto', sans-serif;
+
+$font-weight-bold: 700;
+$font-weight-medium: 600;
+$font-weight-normal: 500;
+
+$font-size-large: 22px;
+$font-size-small: 14px;
+$font-size-extra-small: 12px;
+
+$font-size-main: 18px;
+
+// ----- extra params -----
+$border-radius: 15px;
+
+$button-width: 130px;
+
+// ----- screens ------
+$small-screens: 479px;
+$middle-screens: 768px;
+$large-screens: 993px;

@@ -1,0 +1,43 @@
+.login-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: $font-size-main;
+  color: $text-color;
+}
+
+.login-page__label {
+  margin: 10px auto;
+  display: block;
+  width: 200px;
+}
+
+.login-page__field {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+
+  outline: none;
+  background: none;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 3px;
+}
+
+.login-page__button {
+  @extend %btn;
+  margin: 20px auto;
+}
+
+.login-page__error-block {
+  height: 15px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.login-page__error {
+  font-size: $font-size-extra-small;
+  color: $error-color;
+}

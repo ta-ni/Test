@@ -1,0 +1,15 @@
+.header {
+  margin: 10px 0;
+}
+
+.header__button {
+  float: right;
+
+  cursor: pointer;
+  color: $text-color;
+  font-size: $font-size-main;
+
+  &:hover {
+    color: $main-color;
+  }
+}
